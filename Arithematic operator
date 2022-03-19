@@ -1,0 +1,19 @@
+# python 
+
+# Arithmetic Operation 
+
+a = input("Enter your First Number :")
+b = input("Enter your Second Number :")
+
+sum = int(a) + int(b)
+
+sub = int(a) - int(b)
+
+multiply = int(a) * int(b)
+
+divide = int(a) / int(b)
+
+print('Sum of Two Number is:', sum)
+print('Subtraction of Two Number is:', sub)
+print('Multiplication of Two Number is:', multiply)
+print('Division of Two Number is:', divide)
