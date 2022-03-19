@@ -1,11 +1,11 @@
-# python 
+# python
 
-# Arithmetic Operation 
+# Arithmetic Operation
 
 a = input("Enter your First Number :")
 b = input("Enter your Second Number :")
 
-sum = int(a) + int(b)
+sum = int(a) + int(b)     #assign data type to variable
 
 sub = int(a) - int(b)
 
