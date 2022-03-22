@@ -1,0 +1,19 @@
+# python
+
+# Assignment Operation
+
+a = input("Enter your First Number :")
+b = input("Enter your Second Number :")
+
+sum = int(a) += int(b)     #assign data type to variable  # a = a + b
+
+sub = int(a) -= int(b)             #  a = a - b
+
+multiply = int(a) *= int(b)        #  a = a * b
+
+divide = int(a) /= int(b)          #  a = a / b
+
+print('Sum of Two Number is:', sum)
+print('Subtraction of Two Number is:', sub)
+print('Multiplication of Two Number is:', multiply)
+print('Division of Two Number is:', divide)
