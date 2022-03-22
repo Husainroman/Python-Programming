@@ -1,0 +1,25 @@
+# python
+
+# Comparison Operation
+
+a = input("Enter your First Number :")
+b = input("Enter your Second Number :")
+
+val_1 = int(a) > int(b)
+
+val_2 = int(a) < int(b) 
+
+val_3 = int(a) <= int(b)     #assign data type to variable
+
+val_4 = int(a) >= int(b)
+
+va1_5 = int(a) == int(b)
+
+val_6 = int(a) != int(b)
+
+print(a, '>', b,'is   : ',val_1 )
+print(a, '<', b,'is   : ',val_2 )
+print(a, '< =', b,'is : ',val_3 )
+print(a, '> =', b,'is : ',val_4 )
+print(a, '= =', b,'is : ',va1_5 )
+print(a, '! =', b,'is : ',val_6 )
