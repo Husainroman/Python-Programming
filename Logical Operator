@@ -1,0 +1,13 @@
+#Python
+#Logical Operator    
+
+a = 10
+b = 5
+
+print (a > b and a < b)           # 1st condition is true and 2nd condition is false,so it return false 
+                                  #Returns True if both statements are true
+
+
+print (a > b or a < b)            # Returns True if one of the statements is true
+
+print ((not a > b and a < b)) 	  # Reverse the result, returns False if the not(x < 5 and x < 10) result is true	
