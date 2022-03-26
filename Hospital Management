@@ -1,0 +1,43 @@
+# python
+print("****************************************")
+print("|                                      |")
+print("******  WELCOME TO SAI HOSPITAL  *******")
+print("|                                      |")
+print("****************************************")
+name = input("\nEnter your name : ")
+a = "1) eyes care "
+b = "2) skin care "
+c = "3) dental care "
+d = "4) bypass surgery "
+
+print("\nHii!,", name, "How can we help you")
+
+print("\nwe have specialist doctors in :", "\n", a, "\n", b, "\n", c, "\n", d)
+
+slct = input("\nchoose any one number :")
+
+age = input("\nEnter Your Age :")
+
+if slct == "1":
+
+    print("\nMeet Doctor Sharma"
+          "\nIn Room no. 15")
+
+elif slct == "2":
+
+    print("\nMeet Doctor Patil"
+          "\nIn Room no. 8")
+
+elif slct == "3":
+    print("\nMeet Doctor Preeti"
+          "\nIn Room no. 12")
+
+elif slct == "4":
+    print("\nMeet Doctor Mehta"
+          "\nIn Room no. 5")
+
+else:
+    print("Invalid Keyword")
+
+print("\nThanks For Visiting !")
+print("****************************************************")
